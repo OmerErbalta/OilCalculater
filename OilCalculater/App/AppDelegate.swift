@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  OilCalculater
+//  ProtocolOriantedUIKit
 //
-//  Created by OmerErbalta on 3.05.2024.
+//  Created by OmerErbalta on 12.10.2023.
 //
 
 import UIKit

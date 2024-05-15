@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		5C1E25712BE5765B00CD4D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25702BE5765B00CD4D02 /* AppDelegate.swift */; };
 		5C1E25732BE5765B00CD4D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25722BE5765B00CD4D02 /* SceneDelegate.swift */; };
-		5C1E25752BE5765B00CD4D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25742BE5765B00CD4D02 /* ViewController.swift */; };
-		5C1E25782BE5765B00CD4D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E25762BE5765B00CD4D02 /* Main.storyboard */; };
 		5C1E257A2BE5765C00CD4D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E25792BE5765C00CD4D02 /* Assets.xcassets */; };
 		5C1E257D2BE5765C00CD4D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1E257B2BE5765C00CD4D02 /* LaunchScreen.storyboard */; };
 		5C1E25882BE5765C00CD4D02 /* OilCalculaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25872BE5765C00CD4D02 /* OilCalculaterTests.swift */; };
 		5C1E25922BE5765C00CD4D02 /* OilCalculaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25912BE5765C00CD4D02 /* OilCalculaterUITests.swift */; };
 		5C1E25942BE5765C00CD4D02 /* OilCalculaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25932BE5765C00CD4D02 /* OilCalculaterUITestsLaunchTests.swift */; };
+		5C1E25A22BE5768700CD4D02 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25A12BE5768700CD4D02 /* Bill.swift */; };
+		5C1E25A32BE5768700CD4D02 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1E25A12BE5768700CD4D02 /* Bill.swift */; };
+		5CFD69132BEB96A10048649F /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69122BEB96A10048649F /* HomePageViewController.swift */; };
+		5CFD69162BEBBDC50048649F /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69152BEBBDC50048649F /* Car.swift */; };
+		5CFD691A2BEBBE1A0048649F /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69192BEBBE1A0048649F /* CustomLabel.swift */; };
+		5CFD691C2BEBBEAB0048649F /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD691B2BEBBEAB0048649F /* Const.swift */; };
+		5CFD691E2BEBC0BA0048649F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD691D2BEBC0BA0048649F /* CustomTextField.swift */; };
+		5CFD69202BEBC3920048649F /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD691F2BEBC3920048649F /* CarCard.swift */; };
+		5CFD69222BED01650048649F /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69212BED01650048649F /* AddButton.swift */; };
+		5CFD69242BED06A10048649F /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69232BED06A10048649F /* BottomSheetViewController.swift */; };
+		5CFD692B2BED27590048649F /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD692A2BED27590048649F /* HomePageViewModel.swift */; };
+		5CFD692E2BED2AAD0048649F /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD692D2BED2AAD0048649F /* CarDetailViewController.swift */; };
+		5CFD69322BED33070048649F /* CarDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69312BED33070048649F /* CarDetailViewModel.swift */; };
+		5CFD69342BED97640048649F /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69332BED97640048649F /* BackButton.swift */; };
+		5CFD69362BEDAC350048649F /* BillCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFD69352BEDAC350048649F /* BillCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +52,6 @@
 		5C1E256D2BE5765B00CD4D02 /* OilCalculater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OilCalculater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1E25702BE5765B00CD4D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1E25722BE5765B00CD4D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C1E25742BE5765B00CD4D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C1E25772BE5765B00CD4D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C1E25792BE5765C00CD4D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1E257C2BE5765C00CD4D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1E257E2BE5765C00CD4D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,20 @@
 		5C1E258D2BE5765C00CD4D02 /* OilCalculaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OilCalculaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1E25912BE5765C00CD4D02 /* OilCalculaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilCalculaterUITests.swift; sourceTree = "<group>"; };
 		5C1E25932BE5765C00CD4D02 /* OilCalculaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OilCalculaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C1E25A12BE5768700CD4D02 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		5CFD69122BEB96A10048649F /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		5CFD69152BEBBDC50048649F /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		5CFD69192BEBBE1A0048649F /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		5CFD691B2BEBBEAB0048649F /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		5CFD691D2BEBC0BA0048649F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5CFD691F2BEBC3920048649F /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
+		5CFD69212BED01650048649F /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		5CFD69232BED06A10048649F /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		5CFD692A2BED27590048649F /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		5CFD692D2BED2AAD0048649F /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		5CFD69312BED33070048649F /* CarDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewModel.swift; sourceTree = "<group>"; };
+		5CFD69332BED97640048649F /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		5CFD69352BEDAC350048649F /* BillCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +124,10 @@
 		5C1E256F2BE5765B00CD4D02 /* OilCalculater */ = {
 			isa = PBXGroup;
 			children = (
-				5C1E25702BE5765B00CD4D02 /* AppDelegate.swift */,
-				5C1E25722BE5765B00CD4D02 /* SceneDelegate.swift */,
-				5C1E25742BE5765B00CD4D02 /* ViewController.swift */,
-				5C1E25762BE5765B00CD4D02 /* Main.storyboard */,
+				5CFD69182BEBBDFE0048649F /* View */,
+				5CFD69172BEBBDF30048649F /* App */,
+				5CFD69142BEBBD8E0048649F /* Core */,
+				5C1E25A02BE5767200CD4D02 /* Model */,
 				5C1E25792BE5765C00CD4D02 /* Assets.xcassets */,
 				5C1E257B2BE5765C00CD4D02 /* LaunchScreen.storyboard */,
 				5C1E257E2BE5765C00CD4D02 /* Info.plist */,
@@ -125,6 +150,106 @@
 				5C1E25932BE5765C00CD4D02 /* OilCalculaterUITestsLaunchTests.swift */,
 			);
 			path = OilCalculaterUITests;
+			sourceTree = "<group>";
+		};
+		5C1E25A02BE5767200CD4D02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E25A12BE5768700CD4D02 /* Bill.swift */,
+				5CFD69152BEBBDC50048649F /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CFD69142BEBBD8E0048649F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD692C2BED2A9A0048649F /* CarDetail */,
+				5CFD69292BED27130048649F /* AddCarBottomSheet */,
+				5CFD69262BED26F10048649F /* HomePage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5CFD69172BEBBDF30048649F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5C1E25702BE5765B00CD4D02 /* AppDelegate.swift */,
+				5C1E25722BE5765B00CD4D02 /* SceneDelegate.swift */,
+				5CFD691B2BEBBEAB0048649F /* Const.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5CFD69182BEBBDFE0048649F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69192BEBBE1A0048649F /* CustomLabel.swift */,
+				5CFD691D2BEBC0BA0048649F /* CustomTextField.swift */,
+				5CFD691F2BEBC3920048649F /* CarCard.swift */,
+				5CFD69212BED01650048649F /* AddButton.swift */,
+				5CFD69332BED97640048649F /* BackButton.swift */,
+				5CFD69352BEDAC350048649F /* BillCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CFD69262BED26F10048649F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69282BED27060048649F /* ViewModal */,
+				5CFD69272BED26FD0048649F /* ViewConroller */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		5CFD69272BED26FD0048649F /* ViewConroller */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69122BEB96A10048649F /* HomePageViewController.swift */,
+			);
+			path = ViewConroller;
+			sourceTree = "<group>";
+		};
+		5CFD69282BED27060048649F /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD692A2BED27590048649F /* HomePageViewModel.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		5CFD69292BED27130048649F /* AddCarBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69232BED06A10048649F /* BottomSheetViewController.swift */,
+			);
+			path = AddCarBottomSheet;
+			sourceTree = "<group>";
+		};
+		5CFD692C2BED2A9A0048649F /* CarDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69302BED2ABD0048649F /* ViewModel */,
+				5CFD692F2BED2AB30048649F /* ViewController */,
+			);
+			path = CarDetail;
+			sourceTree = "<group>";
+		};
+		5CFD692F2BED2AB30048649F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD692D2BED2AAD0048649F /* CarDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CFD69302BED2ABD0048649F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5CFD69312BED33070048649F /* CarDetailViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +358,6 @@
 			files = (
 				5C1E257D2BE5765C00CD4D02 /* LaunchScreen.storyboard in Resources */,
 				5C1E257A2BE5765C00CD4D02 /* Assets.xcassets in Resources */,
-				5C1E25782BE5765B00CD4D02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +382,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1E25752BE5765B00CD4D02 /* ViewController.swift in Sources */,
+				5CFD69322BED33070048649F /* CarDetailViewModel.swift in Sources */,
+				5CFD69132BEB96A10048649F /* HomePageViewController.swift in Sources */,
+				5CFD692E2BED2AAD0048649F /* CarDetailViewController.swift in Sources */,
+				5CFD69242BED06A10048649F /* BottomSheetViewController.swift in Sources */,
+				5CFD691A2BEBBE1A0048649F /* CustomLabel.swift in Sources */,
+				5C1E25A22BE5768700CD4D02 /* Bill.swift in Sources */,
+				5CFD69362BEDAC350048649F /* BillCard.swift in Sources */,
+				5CFD692B2BED27590048649F /* HomePageViewModel.swift in Sources */,
+				5CFD69222BED01650048649F /* AddButton.swift in Sources */,
+				5CFD69162BEBBDC50048649F /* Car.swift in Sources */,
+				5CFD691E2BEBC0BA0048649F /* CustomTextField.swift in Sources */,
 				5C1E25712BE5765B00CD4D02 /* AppDelegate.swift in Sources */,
 				5C1E25732BE5765B00CD4D02 /* SceneDelegate.swift in Sources */,
+				5CFD69202BEBC3920048649F /* CarCard.swift in Sources */,
+				5CFD691C2BEBBEAB0048649F /* Const.swift in Sources */,
+				5CFD69342BED97640048649F /* BackButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1E25882BE5765C00CD4D02 /* OilCalculaterTests.swift in Sources */,
+				5C1E25A32BE5768700CD4D02 /* Bill.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +435,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C1E25762BE5765B00CD4D02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C1E25772BE5765B00CD4D02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C1E257B2BE5765C00CD4D02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +577,6 @@
 				INFOPLIST_FILE = OilCalculater/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +604,6 @@
 				INFOPLIST_FILE = OilCalculater/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
